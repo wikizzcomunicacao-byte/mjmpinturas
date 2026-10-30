@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJM Pinturas | Pintura Residencial e Predial em Catanduva - SP</title>
+    <meta name="description" content="Especialista em pintura residencial, predial, aplicação de texturas e grafiato em Catanduva e região. Peça seu orçamento sem compromisso!">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Fontes Google (Poppins & Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Configurações do Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mjm: {
+                            navy: '#0f2b46',
+                            navylight: '#1a3e61',
+                            cream: '#f5f1eb',
+                            creamlight: '#fbf9f5',
+                            accent: '#d4af37',
+                            accenthover: '#b5932a',
+                            whatsapp: '#25D366',
+                            whatsappdark: '#1da851'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                        heading: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fbf9f5;
+            color: #1e293b;
+        }
+
+        .bg-pattern {
+            background-color: #f5f1eb;
+            background-image: radial-gradient(#0f2b46 0.5px, transparent 0.5px), radial-gradient(#0f2b46 0.5px, #f5f1eb 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            background-opacity: 0.05;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .pulse-whatsapp {
+            animation: pulse-green 2s infinite;
+        }
+
+        @keyframes pulse-green {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-mjm-navy selection:text-white">
+
+    <!-- BARRA DE TOPO SUPORTE -->
+    <div class="bg-mjm-navy text-white text-xs md:text-sm py-2 px-4 border-b border-mjm-navylight">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 text-slate-300">
+                <span><i class="fa-solid fa-location-dot text-mjm-accent mr-1"></i> Rua Piracicaba, 673 - Catanduva - SP</span>
+                <span class="hidden sm:inline">|</span>
+                <span class="hidden sm:inline"><i class="fa-solid fa-clock text-mjm-accent mr-1"></i> Seg - Sáb: 07:00 às 18:00</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." 
+                   target="_blank" 
+                   class="hover:text-mjm-accent transition font-semibold flex items-center gap-1">
+                    <i class="fa-brands fa-whatsapp text-mjm-whatsapp"></i> (17) 99181-0091
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVEGAÇÃO PRINCIPAL -->
+    <nav class="sticky top-0 z-40 bg-mjm-creamlight/95 backdrop-blur-md shadow-sm border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- LOGO SVG FIEL À IMAGEM -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-14 relative flex items-center justify-center">
+                        <svg viewBox="0 0 200 240" class="w-full h-full text-mjm-navy fill-current">
+                            <!-- Cabo e Rolo de Pintura -->
+                            <path d="M 100 5 C 105 5, 110 9, 110 15 L 110 40 L 140 40 C 145 40, 150 45, 150 50 L 150 110 C 150 112, 148 114, 146 114 L 142 114 L 142 58 L 100 58 L 100 48 L 100 15 C 100 9, 105 5, 100 5 Z" fill="currentColor"/>
+                            <!-- Rolo e Formato Teto -->
+                            <path d="M 60 60 L 140 60 C 145 60, 148 64, 148 68 L 148 115 C 148 117, 146 118, 144 118 L 140 118 L 140 70 L 60 70 L 60 118 L 56 118 C 54 118, 52 117, 52 115 L 52 68 C 52 64, 55 60, 60 60 Z" fill="currentColor"/>
+                            <!-- Casa com Janela -->
+                            <path d="M 100 75 L 135 105 L 135 120 L 65 120 L 65 105 Z" fill="currentColor"/>
+                            <!-- Corte da Casa/Janela em Creme/Branco (para dar vazado) -->
+                            <rect x="90" y="100" width="8" height="8" class="fill-mjm-creamlight" />
+                            <rect x="102" y="100" width="8" height="8" class="fill-mjm-creamlight" />
+                            <rect x="90" y="110" width="8" height="8" class="fill-mjm-creamlight" />
+                            <rect x="102" y="110" width="8" height="8" class="fill-mjm-creamlight" />
+                        </svg>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-heading font-extrabold text-2xl text-mjm-navy leading-none tracking-tight">MJM</span>
+                        <span class="font-heading font-semibold text-xs tracking-[0.25em] text-mjm-navy/80 uppercase">PINTURAS</span>
+                    </div>
+                </a>
+
+                <!-- LINKS DE NAVEGAÇÃO (DESKTOP) -->
+                <div class="hidden md:flex items-center space-x-8 font-medium text-slate-700">
+                    <a href="#inicio" class="hover:text-mjm-navy transition border-b-2 border-transparent hover:border-mjm-navy py-1">Início</a>
+                    <a href="#sobre" class="hover:text-mjm-navy transition border-b-2 border-transparent hover:border-mjm-navy py-1">Sobre Nós</a>
+                    <a href="#servicos" class="hover:text-mjm-navy transition border-b-2 border-transparent hover:border-mjm-navy py-1">Serviços</a>
+                    <a href="#diferenciais" class="hover:text-mjm-navy transition border-b-2 border-transparent hover:border-mjm-navy py-1">Por que a MJM?</a>
+                    <a href="#contato" class="hover:text-mjm-navy transition border-b-2 border-transparent hover:border-mjm-navy py-1">Contato</a>
+                </div>
+
+                <!-- BOTÃO AÇÃO DESTACADO -->
+                <div class="hidden sm:flex items-center">
+                    <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20pintura." 
+                       target="_blank"
+                       class="bg-mjm-navy text-white px-5 py-2.5 rounded-lg font-semibold shadow-md hover:bg-mjm-navylight transition flex items-center gap-2 group">
+                        <i class="fa-solid fa-calculator text-mjm-accent group-hover:rotate-12 transition-transform"></i>
+                        Pedir Orçamento
+                    </a>
+                </div>
+
+                <!-- MENU MOBILE TOGGLE -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-mjm-navy p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-mjm-navy" aria-label="Abrir Menu">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENU MOBILE DROPDOWN -->
+        <div id="mobile-menu" class="hidden md:hidden bg-mjm-cream border-t border-slate-200 px-4 pt-2 pb-6 space-y-3">
+            <a href="#inicio" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-mjm-navy hover:text-white">Início</a>
+            <a href="#sobre" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-mjm-navy hover:text-white">Sobre Nós</a>
+            <a href="#servicos" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-mjm-navy hover:text-white">Serviços</a>
+            <a href="#diferenciais" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-mjm-navy hover:text-white">Por que a MJM?</a>
+            <a href="#contato" class="mobile-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-mjm-navy hover:text-white">Contato</a>
+            <div class="pt-2">
+                <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20pintura." 
+                   target="_blank"
+                   class="w-full bg-mjm-whatsapp text-white px-4 py-3 rounded-lg font-bold text-center block shadow hover:bg-mjm-whatsappdark">
+                    <i class="fa-brands fa-whatsapp mr-2"></i> Falar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="relative bg-mjm-cream py-16 lg:py-24 overflow-hidden border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Conteúdo Esquerda -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-mjm-navy/10 text-mjm-navy text-sm font-semibold border border-mjm-navy/20">
+                        <i class="fa-solid fa-circle-check text-mjm-accent"></i> Atendimento em Catanduva e Região
+                    </div>
+
+                    <h1 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-mjm-navy leading-tight">
+                        Transforme o Seu Imóvel com Pintura <span class="text-transparent bg-clip-text bg-gradient-to-r from-mjm-navy via-mjm-navylight to-mjm-accent">Profissional & Impecável</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-700 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Especialistas em **pintura residencial e predial**. Garantimos agilidade, limpeza extrema durante a obra, acabamento fino e alto padrão em cada detalhe do seu projeto.
+                    </p>
+
+                    <!-- Botões de Ação -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2">
+                        <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20sem%20compromisso." 
+                           target="_blank" 
+                           class="bg-mjm-whatsapp hover:bg-mjm-whatsappdark text-white font-bold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-3 text-lg">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            Chamar no WhatsApp
+                        </a>
+
+                        <a href="#servicos" 
+                           class="bg-white text-mjm-navy border-2 border-mjm-navy hover:bg-mjm-navy hover:text-white font-semibold px-8 py-4 rounded-xl transition-all flex items-center justify-center gap-2 text-lg">
+                            Ver Serviços
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+
+                    <!-- Indicadores Rápidos -->
+                    <div class="grid grid-cols-3 gap-4 pt-8 border-t border-slate-300 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <p class="text-2xl font-bold text-mjm-navy">100%</p>
+                            <p class="text-xs text-slate-600 font-medium">Garantia de Qualidade</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-bold text-mjm-navy">Pontual</p>
+                            <p class="text-xs text-slate-600 font-medium">Entrega no Prazo</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-bold text-mjm-navy">Zero Sujeira</p>
+                            <p class="text-xs text-slate-600 font-medium">Imóvel Protegido</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário Rápido / Simulação no Hero (Direita) -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-slate-100 relative">
+                        <div class="bg-mjm-navy text-white text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full inline-block mb-3">
+                            Resposta Rápida
+                        </div>
+                        <h3 class="font-heading text-xl font-bold text-mjm-navy mb-2">Solicite um Orçamento Express</h3>
+                        <p class="text-slate-600 text-sm mb-6">Preencha abaixo para gerar sua mensagem direta pelo WhatsApp:</p>
+
+                        <form id="hero-quote-form" onsubmit="sendFormToWhatsApp(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 mb-1">Seu Nome</label>
+                                <input type="text" id="form-name" required placeholder="Ex: João Silva" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-mjm-navy focus:outline-none text-slate-800 text-sm">
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 mb-1">Tipo de Serviço</label>
+                                <select id="form-service" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-mjm-navy focus:outline-none text-slate-800 text-sm">
+                                    <option value="Pintura Residencial (Casa/Apto)">Pintura Residencial (Casa/Apto)</option>
+                                    <option value="Pintura Predial / Fachada">Pintura Predial / Fachada</option>
+                                    <option value="Textura / Grafiato">Textura ou Grafiato</option>
+                                    <option value="Restauração de Paredes / Pintura Comercial">Pintura Comercial / Outros</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 mb-1">Bairro / Cidade</label>
+                                <input type="text" id="form-location" placeholder="Ex: Catanduva - Centro" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-mjm-navy focus:outline-none text-slate-800 text-sm">
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold text-slate-700 mb-1">Detalhes Rápidos (Opcional)</label>
+                                <textarea id="form-details" rows="2" placeholder="Ex: Pintura interna de 3 quartos e sala" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-mjm-navy focus:outline-none text-slate-800 text-sm"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-mjm-navy hover:bg-mjm-navylight text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-mjm-whatsapp text-lg"></i>
+                                Gerar Orçamento via WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NÓS -->
+    <section id="sobre" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                
+                <!-- Imagem / Ilustração Representativa -->
+                <div class="relative">
+                    <div class="bg-mjm-cream rounded-2xl p-4 shadow-inner relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1200&auto=format&fit=crop" 
+                             alt="Pintor profissional trabalhando com pintura de alta qualidade" 
+                             class="rounded-xl shadow-md object-cover w-full h-[400px]"
+                             onerror="this.src='https://placehold.co/800x600/0f2b46/ffffff?text=MJM+Pinturas'">
+                    </div>
+                    <!-- Badge Flutuante -->
+                    <div class="absolute -bottom-6 -right-2 sm:right-6 bg-mjm-navy text-white p-5 rounded-2xl shadow-xl flex items-center gap-4 max-w-xs">
+                        <div class="bg-mjm-accent/20 p-3 rounded-xl text-mjm-accent text-2xl">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div>
+                            <p class="font-bold text-sm">Compromisso Total</p>
+                            <p class="text-xs text-slate-300">Satisfação garantida em cada m² pintado.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conteúdo Sobre -->
+                <div class="space-y-6">
+                    <div class="inline-block px-3 py-1 rounded-full bg-mjm-cream text-mjm-navy font-semibold text-xs uppercase tracking-wider">
+                        Sobre a MJM Pinturas
+                    </div>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-bold text-mjm-navy leading-tight">
+                        Dedicação, Profissionalismo e Respeito pelo Seu Imóvel
+                    </h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        A <strong>MJM Pinturas</strong> nasceu com a missão de transformar ambientes residenciais e prediais em Catanduva e toda a região. Entendemos que uma boa pintura vai muito além da estética: trata-se de proteção, valorização do imóvel e conforto para sua família ou negócio.
+                    </p>
+                    <p class="text-slate-600 leading-relaxed">
+                        Trabalhamos rigorosamente com materiais de primeira linha, preparação correta de superfícies (lixamento, emassamento e selamento) e máxima proteção de móveis e pisos, entregando uma obra limpa e sem dores de cabeça.
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="flex items-start gap-3">
+                            <div class="text-mjm-navy text-lg pt-1"><i class="fa-solid fa-check-circle"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-slate-900">Mão de Obra Qualificada</h4>
+                                <p class="text-xs text-slate-500">Técnicas modernas e atenção aos acabamentos finos.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="text-mjm-navy text-lg pt-1"><i class="fa-solid fa-check-circle"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-slate-900">Cumprimento de Prazos</h4>
+                                <p class="text-xs text-slate-500">Início e término conforme o planejado.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="text-mjm-navy text-lg pt-1"><i class="fa-solid fa-check-circle"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-slate-900">Organização & Limpeza</h4>
+                                <p class="text-xs text-slate-500">Isolamento completo do espaço antes da execução.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="text-mjm-navy text-lg pt-1"><i class="fa-solid fa-check-circle"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-slate-900">Preço Justo</h4>
+                                <p class="text-xs text-slate-500">Orçamento transparente sem custos ocultos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="py-16 lg:py-24 bg-mjm-cream border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="px-3 py-1 rounded-full bg-mjm-navy/10 text-mjm-navy font-semibold text-xs uppercase tracking-wider">
+                    Nossas Especialidades
+                </span>
+                <h2 class="font-heading text-3xl sm:text-4xl font-bold text-mjm-navy mt-3">
+                    Soluções Completas em Pintura
+                </h2>
+                <p class="text-slate-600 mt-2">
+                    Atendemos projetos de todos os portes com excelência, do pequeno reparo residencial a grandes fachadas prediais.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- CARD 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all border border-slate-100 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-mjm-cream rounded-xl flex items-center justify-center text-mjm-navy text-2xl mb-6 group-hover:bg-mjm-navy group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <h3 class="font-heading text-xl font-bold text-mjm-navy mb-3">Pintura Residencial</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Pinturas internas e externas para casas e apartamentos. Aplicação de massa corrida, acrílica, tintas laváveis e acabamento acetinado ou fosco.
+                        </p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Tenho%20interesse%20em%20Pintura%20Residencial." target="_blank" class="inline-flex items-center text-sm font-bold text-mjm-navy hover:text-mjm-navylight gap-1 mt-2">
+                        Solicitar este serviço <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all border border-slate-100 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-mjm-cream rounded-xl flex items-center justify-center text-mjm-navy text-2xl mb-6 group-hover:bg-mjm-navy group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <h3 class="font-heading text-xl font-bold text-mjm-navy mb-3">Pintura Predial & Fachadas</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Revitalização de fachadas de condomínios, prédios residenciais e estabelecimentos comerciais com tintas de alta resistência às intempéries.
+                        </p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Tenho%20interesse%20em%20Pintura%20Predial%20e%20Fachada." target="_blank" class="inline-flex items-center text-sm font-bold text-mjm-navy hover:text-mjm-navylight gap-1 mt-2">
+                        Solicitar este serviço <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all border border-slate-100 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-mjm-cream rounded-xl flex items-center justify-center text-mjm-navy text-2xl mb-6 group-hover:bg-mjm-navy group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-brush"></i>
+                        </div>
+                        <h3 class="font-heading text-xl font-bold text-mjm-navy mb-3">Texturas & Grafiato</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Aplicação profissional de textura projetada, grafiato, efeito cimento queimado e efeitos decorativos modernos para dar estilo às suas paredes.
+                        </p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Tenho%20interesse%20em%20Texturas%20e%20Grafiato." target="_blank" class="inline-flex items-center text-sm font-bold text-mjm-navy hover:text-mjm-navylight gap-1 mt-2">
+                        Solicitar este serviço <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all border border-slate-100 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-mjm-cream rounded-xl flex items-center justify-center text-mjm-navy text-2xl mb-6 group-hover:bg-mjm-navy group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <h3 class="font-heading text-xl font-bold text-mjm-navy mb-3">Restauração de Superfícies</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Tratamento de fissuras, trincas, umidade, descascamentos e preparação completa de paredes antigas antes do recebimento da tinta nova.
+                        </p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Tenho%20interesse%20em%20Restaura%C3%A7%C3%A3o%20de%20Superf%C3%ADcies." target="_blank" class="inline-flex items-center text-sm font-bold text-mjm-navy hover:text-mjm-navylight gap-1 mt-2">
+                        Solicitar este serviço <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Banner Chamada Abaixo dos Serviços -->
+            <div class="mt-12 bg-mjm-navy rounded-2xl p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg">
+                <div class="space-y-2 text-center md:text-left">
+                    <h3 class="font-heading text-2xl font-bold">Precisa de um projeto personalizado?</h3>
+                    <p class="text-slate-300 text-sm">Entre em contato, visitamos seu local em Catanduva e apresentamos a melhor proposta.</p>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita%20para%20or%C3%A7amento." 
+                   target="_blank" 
+                   class="bg-mjm-whatsapp hover:bg-mjm-whatsappdark text-white font-bold px-6 py-3.5 rounded-xl transition flex items-center gap-2 whitespace-nowrap shadow">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> Agendar Visita Técnica
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- POR QUE ESCOLHER A MJM -->
+    <section id="diferenciais" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="px-3 py-1 rounded-full bg-mjm-cream text-mjm-navy font-semibold text-xs uppercase tracking-wider">
+                    Diferenciais Competitivos
+                </span>
+                <h2 class="font-heading text-3xl sm:text-4xl font-bold text-mjm-navy mt-3">
+                    Por Que Escolher a MJM Pinturas?
+                </h2>
+                <p class="text-slate-600 mt-2">
+                    Oferecemos tranquilidade do início ao fim da sua reforma ou obra.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="p-8 rounded-2xl bg-mjm-creamlight border border-slate-200 text-center space-y-4 hover:-translate-y-1 transition-transform">
+                    <div class="w-16 h-16 bg-mjm-navy text-mjm-accent rounded-2xl flex items-center justify-center text-2xl mx-auto shadow-md">
+                        <i class="fa-solid fa-broom"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-mjm-navy">Proteção & Limpeza</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Protegemos todos os pisos, janelas, móveis e tomadas com lona e fita crepe antes de iniciar qualquer etapa de pintura.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-mjm-creamlight border border-slate-200 text-center space-y-4 hover:-translate-y-1 transition-transform">
+                    <div class="w-16 h-16 bg-mjm-navy text-mjm-accent rounded-2xl flex items-center justify-center text-2xl mx-auto shadow-md">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-mjm-navy">Materiais de Qualidade</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Orientamos e utilizamos as melhores marcas de tintas e complementos do mercado para garantir durabilidade e cobertura impecável.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-mjm-creamlight border border-slate-200 text-center space-y-4 hover:-translate-y-1 transition-transform">
+                    <div class="w-16 h-16 bg-mjm-navy text-mjm-accent rounded-2xl flex items-center justify-center text-2xl mx-auto shadow-md">
+                        <i class="fa-solid fa-handshake font-bold"></i>
+                    </div>
+                    <h3 class="font-heading text-xl font-bold text-mjm-navy">Compromisso e Respeito</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Transparência no orçamento, cumprimento rigoroso de prazos e atendimento educado e prestativo do início ao fim.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO E CONTATO -->
+    <section id="contato" class="py-16 lg:py-24 bg-mjm-cream border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Informações de Contato (Esquerda) -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div>
+                        <span class="px-3 py-1 rounded-full bg-mjm-navy/10 text-mjm-navy font-semibold text-xs uppercase tracking-wider">
+                            Atendimento Local
+                        </span>
+                        <h2 class="font-heading text-3xl sm:text-4xl font-bold text-mjm-navy mt-3">
+                            Fale Conosco
+                        </h2>
+                        <p class="text-slate-600 mt-2">
+                            Estamos prontos para atender seu projeto em Catanduva - SP e cidades vizinhas.
+                        </p>
+                    </div>
+
+                    <!-- Card de Contato -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-6">
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-mjm-cream text-mjm-navy rounded-xl flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-mjm-navy">Endereço</h4>
+                                <p class="text-slate-600 text-sm">Rua Piracicaba, 673</p>
+                                <p class="text-slate-600 text-sm">Catanduva - SP, CEP 15800-000</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-mjm-cream text-mjm-navy rounded-xl flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-mjm-navy">Telefone / WhatsApp</h4>
+                                <p class="text-slate-600 text-sm">(17) 99181-0091</p>
+                                <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Vim%20pelo%20site." 
+                                   target="_blank"
+                                   class="inline-block mt-1 text-xs text-mjm-whatsappdark font-bold hover:underline">
+                                    Clique aqui para iniciar conversa &rarr;
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-mjm-cream text-mjm-navy rounded-xl flex items-center justify-center text-xl shrink-0">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-mjm-navy">Horário de Funcionamento</h4>
+                                <p class="text-slate-600 text-sm">Segunda a Sexta: 07:00 às 18:00</p>
+                                <p class="text-slate-600 text-sm">Sábado: 07:00 às 13:00</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Botão Direto -->
+                    <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Gostaria%20de%20pedir%20um%20or%C3%A7amento%20para%20minha%20obra." 
+                       target="_blank" 
+                       class="w-full bg-mjm-whatsapp hover:bg-mjm-whatsappdark text-white font-bold py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-3 text-lg">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i>
+                        Enviar Mensagem no WhatsApp
+                    </a>
+                </div>
+
+                <!-- Mapa Incorporado Google Maps (Direita) -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white p-2 rounded-2xl shadow-md border border-slate-200 overflow-hidden h-[420px]">
+                        <iframe 
+                            title="Mapa de Localização MJM Pinturas"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.878709033333!2d-48.978000!3d-21.138000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b931cb7f1011d3%3A0x8670846e91122a0!2sR.%20Piracicaba%2C%20673%20-%20Catanduva%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; rounded-xl" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            class="rounded-xl">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-mjm-navy text-white pt-12 pb-8 border-t border-mjm-navylight">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-mjm-navylight">
+                
+                <!-- Coluna 1: Marca -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <svg viewBox="0 0 200 240" class="w-full h-full text-white fill-current">
+                                <path d="M 100 5 C 105 5, 110 9, 110 15 L 110 40 L 140 40 C 145 40, 150 45, 150 50 L 150 110 C 150 112, 148 114, 146 114 L 142 114 L 142 58 L 100 58 L 100 48 L 100 15 C 100 9, 105 5, 100 5 Z"/>
+                                <path d="M 60 60 L 140 60 C 145 60, 148 64, 148 68 L 148 115 C 148 117, 146 118, 144 118 L 140 118 L 140 70 L 60 70 L 60 118 L 56 118 C 54 118, 52 117, 52 115 L 52 68 C 52 64, 55 60, 60 60 Z"/>
+                                <path d="M 100 75 L 135 105 L 135 120 L 65 120 L 65 105 Z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="font-heading font-extrabold text-xl leading-none tracking-tight block">MJM</span>
+                            <span class="font-heading font-semibold text-[10px] tracking-[0.2em] text-slate-300 uppercase block">PINTURAS</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-xs leading-relaxed">
+                        Serviços profissionais de pintura residencial e predial em Catanduva - SP. Qualidade, limpezas e satisfação garantida.
+                    </p>
+                </div>
+
+                <!-- Coluna 2: Links Rápidos -->
+                <div class="space-y-2">
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider text-mjm-accent">Navegação</h4>
+                    <ul class="space-y-1.5 text-xs text-slate-300">
+                        <li><a href="#inicio" class="hover:text-white transition">Início</a></li>
+                        <li><a href="#sobre" class="hover:text-white transition">Sobre Nós</a></li>
+                        <li><a href="#servicos" class="hover:text-white transition">Nossos Serviços</a></li>
+                        <li><a href="#diferenciais" class="hover:text-white transition">Por que a MJM?</a></li>
+                        <li><a href="#contato" class="hover:text-white transition">Contato e Endereço</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Contato Rápido -->
+                <div class="space-y-2">
+                    <h4 class="font-heading font-bold text-sm uppercase tracking-wider text-mjm-accent">Atendimento</h4>
+                    <p class="text-xs text-slate-300"><i class="fa-solid fa-phone text-mjm-accent mr-1.5"></i> (17) 99181-0091</p>
+                    <p class="text-xs text-slate-300"><i class="fa-solid fa-location-dot text-mjm-accent mr-1.5"></i> Rua Piracicaba, 673 - Catanduva SP</p>
+                </div>
+
+            </div>
+
+            <div class="pt-6 text-center text-xs text-slate-400 flex flex-col sm:flex-row justify-between items-center gap-2">
+                <p>&copy; <span id="year"></span> MJM Pinturas. Todos os direitos reservados.</p>
+                <p>Catanduva - SP</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP COM PULSO -->
+    <a href="https://api.whatsapp.com/send?phone=5517991810091&text=Ol%C3%A1!%20Estou%20no%20site%20da%20MJM%20Pinturas%20e%20gostaria%20de%20um%20or%C3%A7amento." 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="fixed bottom-6 right-6 z-50 bg-mjm-whatsapp hover:bg-mjm-whatsappdark text-white w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl transition-transform hover:scale-110 pulse-whatsapp"
+       aria-label="Chamar no WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JAVASCRIPT SIMPLES DE INTERAÇÃO -->
+    <script>
+        // Atualiza o ano no rodapé
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Toggle do menu mobile
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Função de envio do formulário do Hero direto para o WhatsApp
+        function sendFormToWhatsApp(e) {
+            e.preventDefault();
+            const name = document.getElementById('form-name').value;
+            const service = document.getElementById('form-service').value;
+            const location = document.getElementById('form-location').value;
+            const details = document.getElementById('form-details').value;
+
+            let text = `Ol%C3%A1!%20Meu%20nome%20%C3%A9%20*${encodeURIComponent(name)}*.%0A`;
+            text += `Gostaria%20de%20um%20or%C3%A7amento%20para%20*${encodeURIComponent(service)}*.%0A`;
+            
+            if(location) {
+                text += `Local:%20${encodeURIComponent(location)}.%0A`;
+            }
+            if(details) {
+                text += `Detalhes:%20${encodeURIComponent(details)}.%0A`;
+            }
+
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=5517991810091&text=${text}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+</body>
+</html>
